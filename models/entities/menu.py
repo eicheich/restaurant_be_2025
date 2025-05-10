@@ -1,11 +1,11 @@
-from sqlalchemy import Column, Integer, String, Float, Text
+from sqlalchemy import Column, Integer, String, Float, Text, UniqueConstraint
 from models import Base
 
 class MenuCategory(Base):
     __tablename__ = "menu_categories"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(255), nullable=False)
+    name = Column(String(255), nullable=False, unique=True)
 
 class MenuItem(Base):
     __tablename__ = "menu_items"
