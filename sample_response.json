@@ -1,0 +1,66 @@
+{
+  "data": {
+    "menuCategories": [
+      {
+        "id": 1,
+        "name": "Appetizer",
+        "description": "Menu pembuka",
+        "items": [
+          {
+            "id": 1,
+            "name": "Spring Roll",
+            "description": "Lumpia isi sayuran segar",
+            "price": 25000,
+            "image": "spring_roll.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Calamari",
+            "description": "Cumi goreng tepung dengan saus tartar",
+            "price": 45000,
+            "image": "calamari.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Main Course",
+        "description": "Menu utama",
+        "items": [
+          {
+            "id": 3,
+            "name": "Nasi Goreng Special",
+            "description": "Nasi goreng dengan telur, ayam, dan udang",
+            "price": 55000,
+            "image": "nasi_goreng.jpg"
+          },
+          {
+            "id": 4,
+            "name": "Beef Steak",
+            "description": "Steak daging sapi dengan kentang dan sayuran",
+            "price": 125000,
+            "image": "beef_steak.jpg"
+          }
+        ]
+      }
+    ],
+    "latestArticles": [
+      {
+        "id": 1,
+        "title": "Grand Opening Restaurant",
+        "content": "Kami dengan bangga mengumumkan pembukaan restoran baru kami...",
+        "author": "Manager",
+        "published_date": "2023-05-15",
+        "image": "grand_opening.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Menu Baru Bulan Ini",
+        "content": "Jangan lewatkan menu spesial bulan ini yang menggabungkan cita rasa tradisional...",
+        "author": "Chef Utama",
+        "published_date": "2023-06-01",
+        "image": "new_menu.jpg"
+      }
+    ]
+  }
+}
