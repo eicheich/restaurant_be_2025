@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/houselab/restaurant_be_2025/
+    - /bin/cp -R * $DEPLOYPATH
